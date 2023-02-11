@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &9144546254820754675
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9144546254820754685}
+  - component: {fileID: 9144546254820754674}
+  m_Layer: 0
+  m_Name: Game Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9144546254820754685
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9144546254820754675}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 932.27075, y: 997.22595, z: -291.9476}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &9144546254820754674
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9144546254820754675}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a87745347b804547bf70430acb83515, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lives: 5
+  coins: 0
+  score: 0
+  level: 1
+  livesText: {fileID: 0}
+  coinsText: {fileID: 0}
+  scoreText: {fileID: 0}
+  levelText: {fileID: 0}
+  gameOver: 0
+  gameOverPanel: {fileID: 0}
+  numberOfBricks: 0
+  levels:
+  - {fileID: 7338727102441604074, guid: a6bb00f6e8794254a805c91be4fea482, type: 3}
+  - {fileID: 8500822362472486381, guid: 415d42080e6bfde48a68aa3b53590996, type: 3}
+  currentLevelIndex: 0
+  ball: {fileID: 6373692387896604784, guid: a12b6f4fb80143941a98f7b19e381798, type: 3}
+  paddle: {fileID: 8941857790869709858, guid: ce7dab01cfb01b448bf04bf8b01c41a6, type: 3}
+  paddleNoGun: {fileID: 21300000, guid: 8f378688af52cbe4b8483256d5f9f5da, type: 3}
